@@ -5,14 +5,19 @@ import streamlit as st
 import tomllib
 
 
-def _load_css(path: str = "style/style.css") -> None:
-    css_path = Path(path)
+BASE_COMPONENTES = Path(__file__).resolve().parent
+BASE_APP = BASE_COMPONENTES.parent
+
+
+def _load_css(path: Path | None = None) -> None:
+    css_path = path or (BASE_APP / "style" / "style.css")
     if css_path.exists():
         st.markdown(f"<style>{css_path.read_text(encoding='utf-8')}</style>", unsafe_allow_html=True)
 
 
-def _load_nav(path: str = "components/nav.toml") -> dict:
-    with open(path, "rb") as f:
+def _load_nav(path: Path | None = None) -> dict:
+    nav_path = path or (BASE_COMPONENTES / "nav.toml")
+    with open(nav_path, "rb") as f:
         return tomllib.load(f)
 
 
