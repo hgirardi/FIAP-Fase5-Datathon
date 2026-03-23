@@ -1,0 +1,8 @@
+streamlit
+altair
+numpy
+pandas
+pyarrow
+joblib
+scikit-learn
+PyYAML
