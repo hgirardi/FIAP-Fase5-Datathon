@@ -1,0 +1,120 @@
+perguntas:
+  - id: "q1_ian"
+    titulo: "1. Qual é o perfil geral de defasagem dos alunos (IAN) e como ele evolui ao longo dos anos?"
+    resposta: |
+      - O perfil mais comum da base é de alunos em **defasagem moderada**, e essa condição perde força ao longo do tempo.
+      - Em 2024, **53,9%** dos alunos estão na fase ou adiantados, **38,1%** têm defasagem leve, **7,8%** moderada e apenas **0,3%** severa.
+      - A defasagem se concentra mais em **alunos de escola pública** e em níveis específicos da trajetória escolar.
+      - Em 2024, a taxa de defasagem é maior na **escola pública** do que na **privada**, reforçando o peso do contexto escolar nessa leitura.
+      - As pioras de trajetória também se concentram nas etapas iniciais, com destaque para **ALFA e nível 1**, mostrando que a entrada e adaptação ao ciclo merecem atenção especial.
+      - Em 2024, os níveis com maior atraso médio continuam concentrando a parte mais crítica da defasagem.
+      - Ao longo dos anos, cresce a proporção de alunos em situação adequada, enquanto a defasagem moderada e severa recuam.
+    graficos:
+      - "ian_perfil_real"
+      - "ian_defasagem"
+      - "ian_escola"
+      - "ian_coorte"
+
+  - id: "q2_ida"
+    titulo: "2. O desempenho acadêmico médio (IDA) está melhorando, estagnado ou caindo ao longo das fases e anos?"
+    resposta: |
+      - O desempenho acadêmico **oscila ao longo do período**: melhora entre 2022 e 2023, mas perde parte da força em 2024.
+      - Portanto, a trajetória recente não é de melhora contínua, e sim de avanço seguido por recuo.
+      - Esse comportamento não é igual em toda a base: o **nível 3** permanece como principal gargalo acadêmico.
+      - A queda de 2023 para 2024 aparece de forma ampla na base, e não apenas entre ingressantes.
+      - Isso indica que a evolução do IDA precisa ser acompanhada com mais atenção justamente nos níveis mais críticos da jornada.
+    graficos:
+      - "ida_distribuicao"
+      - "ida_nivel"
+
+  - id: "q3_ieg"
+    titulo: "3. O grau de engajamento dos alunos (IEG) tem relação direta com seus indicadores de desempenho (IDA) e do ponto de virada (IPV)?"
+    resposta: |
+      - **Sim.** O engajamento aparece conectado tanto ao desempenho acadêmico quanto ao ponto de virada.
+      - Essa relação é relevante, mas **não é determinística**: engajamento ajuda, mas não garante sozinho bom resultado.
+      - Em geral, alunos mais engajados tendem a apresentar resultados melhores.
+      - Os gráficos também mostram que desempenho e participação caminham juntos em perfis mais favoráveis da base.
+      - Ao mesmo tempo, existe um grupo importante de alunos com combinações mistas, o que reforça a necessidade de intervenções diferentes para perfis diferentes.
+      - Isso reforça que o engajamento não deve ser visto como um fator isolado, mas como parte relevante da trajetória do aluno.
+    graficos:
+      - "ieg_ida"
+      - "ieg_ipv"
+
+  - id: "q4_iaa"
+    titulo: "4. As percepções dos alunos sobre si mesmos (IAA) são coerentes com seu desempenho real (IDA) e engajamento (IEG)?"
+    resposta: |
+      - **Não em muitos casos.** A autoavaliação dos alunos apresenta distorções importantes quando comparada ao desempenho observado.
+      - A superestimação aparece com frequência relevante na base, mostrando que a percepção subjetiva do aluno nem sempre acompanha sua situação real.
+      - Os dados sugerem que o IAA mede mais **autoestima/confiança** do que uma leitura precisa de desempenho e engajamento.
+      - O **nível 3** se destaca como ponto crítico, concentrando a maior distância entre autoavaliação e desempenho acadêmico.
+      - Esse achado merece atenção especial porque o nível 3 também aparece, em outras leituras do app, como um ponto de maior vulnerabilidade e abandono.
+      - Isso não prova causa direta, mas reforça a necessidade de acompanhamento mais próximo justamente nessa fase da trajetória escolar.
+    graficos:
+      - "iaa_relacao"
+      - "iaa_coerencia"
+      - "iaa_nivel"
+      - "vulnerabilidade_abandono_nivel"
+
+  - id: "q5_ips"
+    titulo: "5. Há padrões psicossociais (IPS) que antecedem quedas de desempenho acadêmico ou de engajamento?"
+    resposta: |
+      - **Não foi possível confirmar isso de forma robusta com os dados disponíveis.** Quando olhamos o IPS isoladamente, seu poder de antecipar quedas futuras é baixo.
+      - Ainda assim, a comparação entre faixas e transições ajuda a mostrar onde alguns grupos concentram maior vulnerabilidade no ano seguinte.
+      - O IPS, portanto, funciona melhor como sinal complementar de atenção do que como preditor isolado.
+      - A leitura das turmas também indica que a qualidade do preenchimento precisa ser observada com cuidado para não distorcer a interpretação.
+      - Em especial, os dados de 2023 trazem sinais de baixa confiabilidade metodológica, com turmas inteiras recebendo exatamente o mesmo valor.
+    graficos:
+      - "ips_delta_20222023"
+      - "ips_delta_20232024"
+
+  - id: "q6_ipp"
+    titulo: "6. As avaliações psicopedagógicas (IPP) confirmam ou contradizem a defasagem identificada pelo IAN?"
+    resposta: |
+      - O IPP **confirma parte** da leitura do IAN, mas **não de forma total**.
+      - Em vários casos, ele aponta para uma situação diferente da sugerida pela defasagem, com uma parcela relevante de alunos defasados aparecendo com IPP alto.
+      - Isso mostra que o IPP não é um espelho da defasagem e pode captar potencial, evolução comportamental e maturidade de processo.
+      - Isso indica que os dois indicadores capturam dimensões complementares da trajetória do aluno.
+      - Na prática, olhar apenas para o IAN não é suficiente para entender toda a situação psicopedagógica do estudante.
+    graficos:
+      - "ipp_grupo_ian"
+      - "ipp_concordancia"
+
+  - id: "q7_ipv"
+    titulo: "7. Quais comportamentos acadêmicos, emocionais ou de engajamento mais influenciam o IPV ao longo do tempo?"
+    resposta: |
+      - Os sinais mais associados ao IPV mudam ao longo do tempo, mas **desempenho acadêmico, engajamento e IPP** aparecem como os principais protagonistas.
+      - Não existe um único fator dominante em todos os anos; os destaques se reorganizam conforme a transição observada.
+      - No mesmo ano, os sinais costumam ser mais fortes do que na leitura temporal, o que indica que o IPV é mais explicado pelo contexto corrente do que apenas pelo histórico anterior.
+      - Entre os fatores emocionais, **IAA** e **IPS** aparecem com peso bem menor nessa explicação.
+      - A leitura agregada mostra quais indicadores mais caminham com o IPV no conjunto da base.
+      - Já a leitura anual ajuda a entender como esses sinais ganham ou perdem força ao longo do tempo.
+    graficos:
+      - "ipv_geral"
+      - "ipv_evolucao"
+
+  - id: "q8_inde"
+    titulo: "8. Quais combinações de indicadores (IDA + IEG + IPS + IPP) elevam mais a nota global do aluno (INDE)?"
+    resposta: |
+      - As combinações que mais elevam o INDE são aquelas em que **IDA, IEG, IPS e IPP** aparecem juntos em níveis altos.
+      - Já os perfis com resultados baixos simultâneos concentram os menores valores do índice.
+      - A fórmula do INDE se confirma nos dados, e **IDA** e **IEG** aparecem como o motor principal do índice.
+      - Entre os quatro indicadores do recorte, **IPS** é o que menos contribui isoladamente para elevar o resultado global.
+      - Isso mostra que a força do INDE está no efeito combinado entre dimensões, e não em um único indicador isolado.
+      - Em outras palavras, o melhor resultado global aparece quando desempenho, engajamento e apoio psicossocial caminham juntos.
+    graficos:
+      - "inde_matriz"
+      - "inde_combinacoes"
+
+  - id: "q10_efetividade"
+    titulo: "10. Os indicadores mostram melhora consistente ao longo do ciclo nas diferentes fases, confirmando o impacto real do programa?"
+    resposta: |
+      - **Sim, os dados apontam melhora consistente** em indicadores centrais do programa ao longo do ciclo.
+      - A taxa de defasagem recua ao longo dos anos, indicando avanço no alinhamento entre fase ideal e fase efetiva.
+      - A leitura das pedras ajuda a observar essa trajetória: **Quartzo** representa os alunos em situação mais frágil, enquanto **Ágata**, **Ametista** e **Topázio** indicam estágios mais altos de desenvolvimento no programa.
+      - O ciclo recente mostra dois momentos distintos: piora relativa até 2022 e recuperação mais clara a partir de 2023.
+      - Ao longo do período, a distribuição das pedras e a mobilidade entre elas mostram avanço líquido de parte relevante dos alunos.
+      - Isso reforça sinais positivos de acompanhamento e sugere impacto real do programa na trajetória educacional observada.
+    graficos:
+      - "efetividade_defasagem"
+      - "efetividade_pedras"
+      - "efetividade_mobilidade"

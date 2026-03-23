@@ -1,0 +1,3 @@
+from sucesso_programa.conteudo import carregar_perguntas_sucesso
+from sucesso_programa.graficos import renderizar_grafico_sucesso
+

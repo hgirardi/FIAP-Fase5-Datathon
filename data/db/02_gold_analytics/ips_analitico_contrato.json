@@ -1,0 +1,18 @@
+{
+  "arquivo": "ips_analitico.parquet",
+  "descricao": "Base analitica enriquecida da aba IPS para o Streamlit.",
+  "colunas_obrigatorias": [
+    "RA",
+    "ano",
+    "turma",
+    "IPS",
+    "faixa_IPS",
+    "ano_proximo",
+    "transicao",
+    "delta_IDA",
+    "delta_IEG",
+    "caiu_IDA",
+    "caiu_IEG"
+  ],
+  "observacao": "A base preserva os registros anuais originais e adiciona somente os campos auxiliares usados nos graficos do IPS."
+}

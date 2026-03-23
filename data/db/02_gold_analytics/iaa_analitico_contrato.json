@@ -1,0 +1,18 @@
+{
+  "arquivo": "iaa_analitico.parquet",
+  "descricao": "Base analitica enriquecida da aba IAA para o Streamlit.",
+  "colunas_obrigatorias": [
+    "RA",
+    "ano",
+    "IAA",
+    "IDA",
+    "IEG",
+    "nivel_label",
+    "nivel_ordem",
+    "gap_iaa_ida",
+    "gap_iaa_ieg",
+    "coerencia_iaa",
+    "coerencia_combinada"
+  ],
+  "observacao": "A base preserva os registros anuais originais e adiciona somente os campos auxiliares usados nos graficos do IAA."
+}

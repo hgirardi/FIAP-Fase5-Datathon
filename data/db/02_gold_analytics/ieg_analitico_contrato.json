@@ -1,0 +1,14 @@
+{
+  "arquivo": "ieg_analitico.parquet",
+  "descricao": "Base analitica enriquecida da aba IEG para o Streamlit.",
+  "colunas_obrigatorias": [
+    "RA",
+    "ano",
+    "IEG",
+    "IDA",
+    "IPV",
+    "nivel_label",
+    "quadrante_ieg_ida"
+  ],
+  "observacao": "A base preserva os registros anuais originais e adiciona somente os campos auxiliares usados nos graficos do IEG."
+}

@@ -1,0 +1,21 @@
+{
+  "arquivo": "ipp_analitico.parquet",
+  "descricao": "Base analitica enriquecida da aba IPP para o Streamlit.",
+  "colunas_obrigatorias": [
+    "RA",
+    "ano",
+    "IPP",
+    "IAN",
+    "grupo_ian",
+    "concordancia_ipp",
+    "nivel_label",
+    "nivel_ordem",
+    "ano_proximo",
+    "transicao",
+    "IPP_proximo",
+    "IAN_proximo",
+    "delta_IPP",
+    "avancou_fase"
+  ],
+  "observacao": "A base preserva os registros anuais originais e adiciona somente os campos auxiliares usados nos graficos do IPP."
+}

@@ -1,0 +1,28 @@
+{
+  "arquivo": "ian_analitico.parquet",
+  "descricao": "Base analitica enriquecida da aba IAN para o Streamlit.",
+  "colunas_obrigatorias": [
+    "RA",
+    "ano",
+    "IAN",
+    "defasagem",
+    "nivel_label",
+    "nivel_ordem",
+    "tipo_escola_macro",
+    "status_ian",
+    "grupo_ian",
+    "em_defasagem",
+    "IDA",
+    "IEG",
+    "IAA",
+    "IPS",
+    "IPP",
+    "IPV",
+    "INDE",
+    "registro_coorte",
+    "coorte_ian",
+    "evolucao_ian",
+    "transicao_ian"
+  ],
+  "observacao": "As colunas de coorte valem apenas na primeira linha de cada aluno elegivel; as colunas *_proximo valem apenas quando existe transicao anual consecutiva."
+}

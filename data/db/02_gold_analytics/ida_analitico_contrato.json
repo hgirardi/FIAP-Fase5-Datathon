@@ -1,0 +1,16 @@
+{
+  "arquivo": "ida_analitico.parquet",
+  "descricao": "Base analitica enriquecida da aba IDA para o Streamlit.",
+  "colunas_obrigatorias": [
+    "RA",
+    "ano",
+    "IDA",
+    "IAN",
+    "nivel_label",
+    "nivel_ordem",
+    "grupo_ian",
+    "primeiro_ano",
+    "tipo_aluno"
+  ],
+  "observacao": "A base preserva os registros anuais originais e adiciona somente os campos auxiliares usados nos graficos do IDA."
+}

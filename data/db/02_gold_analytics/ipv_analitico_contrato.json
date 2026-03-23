@@ -1,0 +1,20 @@
+{
+  "arquivo": "ipv_analitico.parquet",
+  "descricao": "Base analitica enriquecida da aba IPV para o Streamlit.",
+  "colunas_obrigatorias": [
+    "RA",
+    "ano",
+    "IPV",
+    "IDA",
+    "IEG",
+    "IAA",
+    "IPS",
+    "IPP",
+    "IAN",
+    "nivel_label",
+    "ano_proximo",
+    "transicao",
+    "IPV_proximo"
+  ],
+  "observacao": "A base preserva os registros anuais originais e adiciona somente os campos auxiliares usados nos graficos do IPV."
+}

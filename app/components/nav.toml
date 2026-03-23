@@ -1,0 +1,37 @@
+[[items]]
+type = "page"
+label = "Home"
+icon = "🏠"
+path = "app.py"
+
+[[items]]
+type = "section"
+label = "Ferramenta"
+
+[[items]]
+type = "page"
+label = "Predição de Risco"
+icon = "🤖"
+path = "pages/predicao.py"
+
+[[items]]
+type = "page"
+label = "Análise Exploratória"
+icon = "🔍"
+path = "pages/analise_exploratoria.py"
+
+[[items]]
+type = "page"
+label = "Sucesso do Programa"
+icon = "🎯"
+path = "pages/sucesso_programa.py"
+
+[[items]]
+type = "section"
+label = "Informações"
+
+[[items]]
+type = "page"
+label = "Sobre o Modelo"
+icon = "📋"
+path = "pages/sobre.py"

@@ -1,0 +1,16 @@
+[data-testid="stSidebarHeader"], [data-testid="stSidebarNav"] {
+    display: none;
+}
+
+[data-testid="stSidebar"] a[aria-current="page"] {
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 0.35rem 0.6rem;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+[data-testid="stWidgetLabel"] p {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
